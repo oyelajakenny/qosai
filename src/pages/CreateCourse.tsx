@@ -62,7 +62,7 @@ export default function CreateCourse() {
       case 2:
         return formData.category !== '';
       case 3:
-        return formData.difficulty !== '';
+        return true; // difficulty is always set (initialized to 'beginner')
       default:
         return false;
     }
