@@ -171,10 +171,10 @@ export default function CreateCourse() {
                 <FiLayers className="w-7 h-7 text-accent-400" />
               </div>
               <div>
-                <h2 className="font-display font-bold text-2xl text-surface-100">
+                <h2 className="font-display font-bold text-2xl text-black">
                   Choose a category
                 </h2>
-                <p className="text-surface-400">
+                <p className="text-surface-500">
                   Select the category that best fits "{formData.subject}"
                 </p>
               </div>
@@ -187,8 +187,8 @@ export default function CreateCourse() {
                   onClick={() => setFormData({ ...formData, category: cat })}
                   className={`px-4 py-3 rounded-xl border text-sm font-medium transition-all duration-200 ${
                     formData.category === cat
-                      ? 'bg-accent-500/20 border-accent-500 text-accent-400'
-                      : 'bg-surface-800/50 border-surface-700 text-surface-300 hover:border-surface-600'
+                      ? 'bg-accent-500/20 border-accent-500 text-black'
+                      : 'bg-surface-800/50 border-surface-700 text-surface-600 hover:border-surface-600'
                   }`}
                 >
                   {cat}
