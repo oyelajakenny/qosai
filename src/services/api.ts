@@ -52,8 +52,8 @@ export const authApi = {
     localStorage.removeItem("token");
   },
 
-  getGoogleAuthUrl: () => `${API_BASE}/auth/google`,
-  getGitHubAuthUrl: () => `${API_BASE}/auth/github`,
+  getGoogleAuthUrl: () => `${API_BASE}/api/auth/google`,
+  getGitHubAuthUrl: () => `${API_BASE}/api/auth/github`,
 };
 
 // Courses API
