@@ -1,7 +1,7 @@
 import axios from "axios";
 import { User, Course, GenerateCourseInput } from "../types";
 
-const API_BASE = import.meta.env.VITE_API_URL || "";
+const API_BASE = (import.meta.env.VITE_API_URL || "").replace(/\/$/, ""); // Remove trailing slash
 
 const api = axios.create({
   baseURL: `${API_BASE}/api`,
