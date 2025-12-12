@@ -84,7 +84,7 @@ export default function Landing() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-500/10 border border-accent-500/20 text-accent-400 text-sm font-medium mb-8"
             >
               <FiZap className="w-4 h-4" />
-              Powered by Amazon Bedrock AI
+              Powered by Amazon Bedrock
             </motion.div>
 
             <h1 className="font-display font-extrabold text-5xl sm:text-6xl lg:text-7xl text-surface-100 leading-tight mb-6">

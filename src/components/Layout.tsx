@@ -13,7 +13,7 @@ export default function Layout({ children }: LayoutProps) {
 
   const handleLogout = async () => {
     await logout();
-    navigate('/');
+    navigate('https://qosai.cloud');
   };
 
   return (
