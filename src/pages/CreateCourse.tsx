@@ -19,22 +19,22 @@ const categories = [
 
 const difficulties = [
   {
-    value: 'beginner',
-    label: 'Beginner',
-    description: 'No prior knowledge required',
-    color: 'from-green-500/20 to-green-600/20 border-green-500/30 text-green-400',
+    value: "beginner",
+    label: "Beginner",
+    description: "No prior knowledge required",
+    color:  "from-green-500/20 to-green-600/20 border-green-500/30 text-surface-700",
   },
   {
-    value: 'intermediate',
-    label: 'Intermediate',
-    description: 'Some foundational knowledge needed',
-    color: 'from-amber-500/20 to-amber-600/20 border-amber-500/30 text-amber-400',
+    value: "intermediate",
+    label: "Intermediate",
+    description: "Some foundational knowledge needed",
+    color:"from-amber-500/20 to-amber-600/20 border-amber-500/30 text-surface-700",
   },
   {
-    value: 'advanced',
-    label: 'Advanced',
-    description: 'Requires solid understanding',
-    color: 'from-red-500/20 to-red-600/20 border-red-500/30 text-red-400',
+    value: "advanced",
+    label: "Advanced",
+    description: "Requires solid understanding",
+    color: "from-red-500/20 to-red-600/20 border-red-500/30 text-surface-700",
   },
 ];
 
