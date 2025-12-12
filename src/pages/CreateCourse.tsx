@@ -252,8 +252,8 @@ export default function CreateCourse() {
                       : 'bg-surface-800/50 border-surface-700 hover:border-surface-600'
                   }`}
                 >
-                  <div className="font-semibold text-surface-100">{diff.label}</div>
-                  <div className="text-sm text-surface-400">{diff.description}</div>
+                  <div className="font-semibold text-surface-950">{diff.label}</div>
+                  <div className="text-sm text-surface-900">{diff.description}</div>
                 </button>
               ))}
             </div>
@@ -290,6 +290,7 @@ export default function CreateCourse() {
               transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
               className="w-16 h-16 rounded-full border-2 border-accent-500/30 border-t-accent-500 mx-auto mb-6"
             />
+            <FiZap className="w-16 h-16 text-accent-500 mx-auto mb-6" />
             <h3 className="font-display font-bold text-xl text-surface-100 mb-2">
               Creating your course...
             </h3>
